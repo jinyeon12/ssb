@@ -1,9 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body topmargin="0" leftmargin="0">
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -13,46 +13,46 @@
   <tr> 
     <td align="center" valign="top"><table width="170" height="300" border="0" cellpadding="0" cellspacing="0">
         <tr> 
-          <td height="9"><img src="image/left_top.gif" width="170" height="9"></td>
+          <td height="9"><img src="../resources/image/left_top.gif" width="170" height="9"></td>
         </tr>
         <tr> 
-          <td align="center" valign="top" background="image/left_bg.gif">
-		  <!----------------------  ∏ﬁ¥∫µÈ ----------------------------->
+          <td align="center" valign="top" background="../resources/image/left_bg.gif">
+		  <!----------------------  Î©îÎâ¥Îì§ ----------------------------->
 		  <table width="150" border="0" cellspacing="0" cellpadding="0">
               <tr> 
-                <td width="17" height="20"><img src="image/left_icon.gif" width="11" height="11" align="absmiddle"></td>
-                <td width="133"><a href="#">±‚∫ª¡§∫∏</a></td>
+                <td width="17" height="20"><img src="../resources/image/left_icon.gif" width="11" height="11" align="absmiddle"></td>
+                <td width="133"><a href="#">Í∏∞Î≥∏Ï†ïÎ≥¥</a></td>
               </tr>
               <tr> 
                 <td height="20">&nbsp;</td>
-                <td>- µÓ∑œ</td>
+                <td>- Îì±Î°ù</td>
               </tr>
               <tr> 
-                <td height="20"><img src="image/left_icon.gif" width="11" height="11" align="absmiddle"></td>
-                <td>¡˜ø¯∏Ì∫Œ</td>
+                <td height="20"><img src="../resources/image/left_icon.gif" width="11" height="11" align="absmiddle"></td>
+                <td>ÏßÅÏõêÎ™ÖÎ∂Ä</td>
               </tr>
               <tr> 
-                <td height="20"><img src="image/left_icon.gif" width="11" height="11" align="absmiddle"></td>
-                <td>≈¡˜¿⁄«ˆ»≤</td>
+                <td height="20"><img src="../resources/image/left_icon.gif" width="11" height="11" align="absmiddle"></td>
+                <td>Ìá¥ÏßÅÏûêÌòÑÌô©</td>
               </tr>
               <tr> 
-                <td height="20"><img src="image/left_icon.gif" width="11" height="11" align="absmiddle"></td>
-                <td>øπ∫Ò¿Œ∑¬¡§∫∏</td>
+                <td height="20"><img src="../resources/image/left_icon.gif" width="11" height="11" align="absmiddle"></td>
+                <td>ÏòàÎπÑÏù∏Î†•Ï†ïÎ≥¥</td>
               </tr>
               <tr> 
-                <td height="20"><img src="image/left_icon.gif" width="11" height="11" align="absmiddle"></td>
-                <td>∞≈∑°√≥¡§∫∏</td>
+                <td height="20"><img src="../resources/image/left_icon.gif" width="11" height="11" align="absmiddle"></td>
+                <td>Í±∞ÎûòÏ≤òÏ†ïÎ≥¥</td>
               </tr>
               <tr> 
                 <td height="20">&nbsp;</td>
-                <td>- µÓ∑œ</td>
+                <td>- Îì±Î°ù</td>
               </tr>
             </table>
-		  <!----------------------  ∏ﬁ¥∫µÈ ----------------------------->
+		  <!----------------------  Î©îÎâ¥Îì§ ----------------------------->
 			</td>
         </tr>
         <tr> 
-          <td height="9"><img src="image/left_bottom.gif" width="170" height="9"></td>
+          <td height="9"><img src="../resources/image/left_bottom.gif" width="170" height="9"></td>
         </tr>
       </table></td>
   </tr>
@@ -62,19 +62,19 @@
   <tr> 
     <td align="center"><table width="170" height="49" border="0" cellpadding="0" cellspacing="0">
         <tr> 
-          <td align="center" background="image/left_box.gif">
-		  <!------------------------------ ∞Ê∑¬∞Àªˆ ---------------------------------->
+          <td align="center" background="../resources/image/left_box.gif">
+		  <!------------------------------ Í≤ΩÎ†•Í≤ÄÏÉâ ---------------------------------->
 		  <table width="155" border="0" cellspacing="0" cellpadding="0">
               <tr> 
-                <td width="17"><img src="image/left_icon.gif" width="11" height="11" align="absmiddle"></td>
-                <td width="143" height="20"><strong>∞Ê∑¬∞Àªˆ</strong></td>
+                <td width="17"><img src="../resources/image/left_icon.gif" width="11" height="11" align="absmiddle"></td>
+                <td width="143" height="20"><strong>Í≤ΩÎ†•Í≤ÄÏÉâ</strong></td>
               </tr>
               <tr align="right"> 
                 <td colspan="2"><input name="textfield" type="text" class="flat" size="15" maxlength="14"> 
-                  <img src="image/search.gif" width="49" height="18" align="absmiddle"></td>
+                  <img src="../resources/image/search.gif" width="49" height="18" align="absmiddle"></td>
               </tr>
             </table>
-		  <!------------------------------ ∞Ê∑¬∞Àªˆ ---------------------------------->
+		  <!------------------------------ Í≤ΩÎ†•Í≤ÄÏÉâ ---------------------------------->
 			</td>
         </tr>
       </table></td>

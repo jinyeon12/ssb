@@ -1,9 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body topmargin="0" leftmargin="0">
 <table width="640" border="0" cellspacing="0" cellpadding="0">
@@ -11,8 +11,8 @@
     <td width="640">&nbsp;</td>
   </tr>
   <tr> 
-    <td height="25"><img src="image/icon.gif" width="9" height="9" align="absmiddle"> 
-      <strong>ªÁø¯ ±‚∫ª ¡§∫∏ ºˆ¡§</strong></td>
+    <td height="25"><img src="../resources/image/icon.gif" width="9" height="9" align="absmiddle"> 
+      <strong>ÏÇ¨Ïõê Í∏∞Î≥∏ Ï†ïÎ≥¥ ÏàòÏ†ï</strong></td>
   </tr>
   <tr> 
     <td><table width="640" border="0" cellspacing="0" cellpadding="0">
@@ -21,18 +21,18 @@
               <tr> 
                 <td><table width="640" border="0" cellspacing="1" cellpadding="0">
                     <tr> 
-                      <td height="2" background="image/bar_bg1.gif"></td>
+                      <td height="2" background="../resources/image/bar_bg1.gif"></td>
                     </tr>
                     <tr align="center" bgcolor="F8F8F8"> 
                       <td height="26" align="center" bgcolor="#E4EBF1" style="padding-right:10"><table width="600" border="0" cellspacing="0" cellpadding="0">
                           <tr> 
-                            <td align="center"><strong>±≥¿∞¡§∫∏ | ¿⁄∞›¡ı. ∫∏¿Ø±‚º˙¡§∫∏ | «¡∑Œ¡ß∆Æ 
-                              ¡§∫∏ |∞Ê∑¬¡§∫∏ | ±Ÿπ´¡§∫∏</strong></td>
+                            <td align="center"><strong>ÍµêÏú°Ï†ïÎ≥¥ | ÏûêÍ≤©Ï¶ù. Î≥¥Ïú†Í∏∞Ïà†Ï†ïÎ≥¥ | ÌîÑÎ°úÏ†ùÌä∏ 
+                              Ï†ïÎ≥¥ |Í≤ΩÎ†•Ï†ïÎ≥¥ | Í∑ºÎ¨¥Ï†ïÎ≥¥</strong></td>
                           </tr>
                         </table></td>
                     </tr>
                     <tr align="center" bgcolor="F8F8F8"> 
-                      <td height="3" align="right" background="image/bar_bg1.gif"></td>
+                      <td height="3" align="right" background="../resources/image/bar_bg1.gif"></td>
                     </tr>
                   </table></td>
               </tr>
@@ -62,21 +62,21 @@
                               <td height="2" colspan="2"></td>
                               </tr>
                             <tr>
-                              <td width="107" height="26" align="right"><strong>«—±€¿Ã∏ß :</strong>&nbsp;</td>
+                              <td width="107" height="26" align="right"><strong>ÌïúÍ∏ÄÏù¥Î¶Ñ :</strong>&nbsp;</td>
                               <td width="310" height="26">
                                 <input type="text" name="textfield4">
                               </td>
                             </tr>
                             <tr>
-                              <td height="26" align="right"><strong>øµπÆ¿Ã∏ß :&nbsp;</strong></td>
+                              <td height="26" align="right"><strong>ÏòÅÎ¨∏Ïù¥Î¶Ñ :&nbsp;</strong></td>
                               <td height="26"><input type="text" name="textfield22"></td>
                             </tr>
                             <tr>
-                              <td height="26" align="right"><strong>«—πÆ¿Ã∏ß:</strong>&nbsp;</td>
+                              <td height="26" align="right"><strong>ÌïúÎ¨∏Ïù¥Î¶Ñ:</strong>&nbsp;</td>
                               <td height="26"><input type="text" name="textfield34"></td>
                             </tr>
                             <tr>
-                              <td height="26" align="right"><strong>¡÷πŒµÓ∑œπ¯»£ :</strong>&nbsp;</td>
+                              <td height="26" align="right"><strong>Ï£ºÎØºÎì±Î°ùÎ≤àÌò∏ :</strong>&nbsp;</td>
                               <td height="26"><input name="textfield323" type="text" size="15">
       -
         <input name="textfield3222" type="text" size="15"></td>
@@ -99,7 +99,7 @@
                     <tr> 
                       <td bgcolor="#E4EBF1"><table width="526" border="0" cellspacing="1" cellpadding="1">
                           <tr> 
-                            <td width="102" align="right"><strong>ªÁ¡¯∆ƒ¿œ∏Ì :&nbsp;</strong></td>
+                            <td width="102" align="right"><strong>ÏÇ¨ÏßÑÌååÏùºÎ™Ö :&nbsp;</strong></td>
                             <td width="268"><input name="textfield33" type="text" size="40"></td>
                             <td width="146"><font color="#FF0000"><img src="image/bt_search.gif" width="49" height="18"></font></td>
                           </tr>
@@ -108,46 +108,46 @@
                     <tr> 
                       <td bgcolor="#E4EBF1"><table width="500" border="0" cellspacing="1" cellpadding="1">
                           <tr> 
-                            <td width="102" align="right"><strong>ª˝≥‚ø˘¿œ :&nbsp;</strong></td>
+                            <td width="102" align="right"><strong>ÏÉùÎÖÑÏõîÏùº :&nbsp;</strong></td>
                             <td width="391"><input name="textfield332" type="text" size="10">
-                              ≥‚ 
+                              ÎÖÑ 
                               <input name="textfield3322" type="text" size="7">
-                              ø˘ 
+                              Ïõî 
                               <input name="textfield33222" type="text" size="7">
-                              ¿œ ( 
+                              Ïùº ( 
                               <input type="radio" name="radiobutton" value="radiobutton">
-                              æÁ∑¬ 
+                              ÏñëÎ†• 
                               <input type="radio" name="radiobutton" value="radiobutton">
-                              ¿Ω∑¬ )</td>
+                              ÏùåÎ†• )</td>
                           </tr>
                         </table></td>
                     </tr>
                     <tr> 
                       <td bgcolor="#E4EBF1"><table width="500" border="0" cellspacing="1" cellpadding="1">
                           <tr> 
-                            <td width="102" align="right"><strong>º∫∫∞ :&nbsp; </strong></td>
+                            <td width="102" align="right"><strong>ÏÑ±Î≥Ñ :&nbsp; </strong></td>
                             <td width="391"> <input type="radio" name="radiobutton" value="radiobutton">
-                              ≥≤¿⁄ 
+                              ÎÇ®Ïûê 
                               <input type="radio" name="radiobutton" value="radiobutton">
-                              ø©¿⁄</td>
+                              Ïó¨Ïûê</td>
                           </tr>
                         </table></td>
                     </tr>
                     <tr> 
                       <td bgcolor="#E4EBF1"><table width="500" border="0" cellspacing="1" cellpadding="1">
                           <tr> 
-                            <td width="102" align="right"><strong>∞·»•¿Øπ´ :&nbsp;</strong></td>
+                            <td width="102" align="right"><strong>Í≤∞ÌòºÏú†Î¨¥ :&nbsp;</strong></td>
                             <td width="391"> <input type="radio" name="radiobutton" value="radiobutton">
-                              ≥≤¿⁄ 
+                              ÎÇ®Ïûê 
                               <input type="radio" name="radiobutton" value="radiobutton">
-                              ø©¿⁄</td>
+                              Ïó¨Ïûê</td>
                           </tr>
                         </table></td>
                     </tr>
                     <tr> 
                       <td bgcolor="#E4EBF1"><table width="500" border="0" cellspacing="1" cellpadding="1">
                           <tr> 
-                            <td width="101" align="right"><strong>≥‚¬˜ :&nbsp;</strong></td>
+                            <td width="101" align="right"><strong>ÎÖÑÏ∞® :&nbsp;</strong></td>
                             <td width="392"><input name="textfield3323" type="text" size="10"> 
                             </td>
                           </tr>
@@ -156,9 +156,9 @@
                     <tr> 
                       <td bgcolor="#E4EBF1"><table width="500" border="0" cellspacing="1" cellpadding="1">
                           <tr> 
-                            <td width="101" align="right"><strong>±ﬁø© ¡ˆ±ﬁ¿Ø«¸ :&nbsp;</strong></td>
+                            <td width="101" align="right"><strong>Í∏âÏó¨ ÏßÄÍ∏âÏú†Ìòï :&nbsp;</strong></td>
                             <td width="392"> <select name="select">
-                                <option>ø˘±ﬁ</option>
+                                <option>ÏõîÍ∏â</option>
                               </select> </td>
                           </tr>
                         </table></td>
@@ -166,7 +166,7 @@
                     <tr> 
                       <td bgcolor="#E4EBF1"><table width="500" border="0" cellspacing="1" cellpadding="1">
                           <tr> 
-                            <td width="101" align="right"><strong>»Ò∏¡¡˜π´ :&nbsp;</strong></td>
+                            <td width="101" align="right"><strong>Ìù¨ÎßùÏßÅÎ¨¥ :&nbsp;</strong></td>
                             <td width="392"> <select name="select2">
                                 <option>SI</option>
                               </select> </td>
@@ -176,9 +176,9 @@
                     <tr> 
                       <td bgcolor="#E4EBF1"><table width="500" border="0" cellspacing="1" cellpadding="1">
                           <tr> 
-                            <td width="101" align="right"><strong>±ﬁø© ¡ˆ±ﬁ ¿Ø«¸:&nbsp;</strong></td>
+                            <td width="101" align="right"><strong>Í∏âÏó¨ ÏßÄÍ∏â Ïú†Ìòï:&nbsp;</strong></td>
                             <td width="392"> <select name="select3">
-                                <option>ø˘±ﬁ</option>
+                                <option>ÏõîÍ∏â</option>
                               </select> </td>
                           </tr>
                         </table></td>
@@ -186,9 +186,9 @@
                     <tr> 
                       <td bgcolor="#E4EBF1"><table width="500" border="0" cellspacing="1" cellpadding="1">
                           <tr> 
-                            <td width="101" align="right"><strong>¿‘ªÁ¿Ø«¸:&nbsp;</strong></td>
+                            <td width="101" align="right"><strong>ÏûÖÏÇ¨Ïú†Ìòï:&nbsp;</strong></td>
                             <td width="392"> <select name="select4">
-                                <option>¡§±‘¡˜</option>
+                                <option>Ï†ïÍ∑úÏßÅ</option>
                               </select> </td>
                           </tr>
                         </table></td>
@@ -196,7 +196,7 @@
                     <tr> 
                       <td bgcolor="#E4EBF1"><table width="500" border="0" cellspacing="1" cellpadding="1">
                           <tr> 
-                            <td width="101" align="right"><strong>¡÷º“:&nbsp;</strong></td>
+                            <td width="101" align="right"><strong>Ï£ºÏÜå:&nbsp;</strong></td>
                             <td width="392"><input name="textfield3324" type="text" size="10"> 
                               <input name="textfield333" type="text" size="40"> 
                             </td>
@@ -206,7 +206,7 @@
                     <tr> 
                       <td bgcolor="#E4EBF1"><table width="500" border="0" cellspacing="1" cellpadding="1">
                           <tr> 
-                            <td width="101" align="right"><strong>ø¨∂Ù√≥:&nbsp;</strong></td>
+                            <td width="101" align="right"><strong>Ïó∞ÎùΩÏ≤ò:&nbsp;</strong></td>
                             <td width="392"><input name="textfield33242" type="text" size="10">
                               - 
                               <input name="textfield332422" type="text" size="10">
@@ -218,7 +218,7 @@
                     <tr> 
                       <td bgcolor="#E4EBF1"><table width="500" border="0" cellspacing="1" cellpadding="1">
                           <tr> 
-                            <td width="101" align="right"><strong>¿Ã∏ﬁ¿œ:&nbsp;</strong></td>
+                            <td width="101" align="right"><strong>Ïù¥Î©îÏùº:&nbsp;</strong></td>
                             <td width="392"><input name="textfield332424" type="text" size="20"> 
                             </td>
                           </tr>
@@ -227,7 +227,7 @@
                     <tr> 
                       <td bgcolor="#E4EBF1"><table width="500" border="0" cellspacing="1" cellpadding="1">
                           <tr> 
-                            <td width="101" align="right"><strong>±‚º˙µÓ±ﬁ:&nbsp;</strong></td>
+                            <td width="101" align="right"><strong>Í∏∞Ïà†Îì±Í∏â:&nbsp;</strong></td>
                             <td width="392"><input name="textfield3324242" type="text" size="20"> 
                             </td>
                           </tr>
@@ -236,7 +236,7 @@
                     <tr> 
                       <td bgcolor="#E4EBF1"><table width="500" border="0" cellspacing="1" cellpadding="1">
                           <tr> 
-                            <td width="101" align="right"><strong>¡÷∑Æ:&nbsp;</strong></td>
+                            <td width="101" align="right"><strong>Ï£ºÎüâ:&nbsp;</strong></td>
                             <td width="392"><input name="textfield33242422" type="text" size="20"> 
                             </td>
                           </tr>
@@ -252,8 +252,8 @@
         <tr>
           <td height="3" align="center"><table width="107" border="0" cellpadding="1" cellspacing="1">
             <tr>
-              <td width="49"><img src="image/bt_remove.gif" width="49" height="18"></td>
-              <td width="51"><img src="image/bt_cancel.gif" width="49" height="18"></td>
+              <td width="49"><img src="../resources/image/bt_remove.gif" width="49" height="18"></td>
+              <td width="51"><img src="../resources/image/bt_cancel.gif" width="49" height="18"></td>
             </tr>
           </table>            </td>
         </tr>

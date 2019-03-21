@@ -1,9 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="../resources/css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body topmargin="0" leftmargin="0">
 <table width="640" border="0" cellspacing="0" cellpadding="0">
@@ -11,8 +11,8 @@
     <td width="640">&nbsp;</td>
   </tr>
   <tr> 
-    <td height="25"><img src="image/icon.gif" width="9" height="9" align="absmiddle"> 
-      <strong>ªÁø¯ ±‚∫ª ¡§∫∏ ºˆ¡§</strong></td>
+    <td height="25"><img src="../resources/image/icon.gif" width="9" height="9" align="absmiddle"> 
+      <strong>ÏÇ¨Ïõê Í∏∞Î≥∏ Ï†ïÎ≥¥ ÏàòÏ†ï</strong></td>
   </tr>
   <tr> 
     <td><table width="640" border="0" cellspacing="0" cellpadding="0">
@@ -21,18 +21,18 @@
               <tr> 
                 <td><table width="640" border="0" cellspacing="1" cellpadding="0">
                     <tr> 
-                      <td height="2" background="image/bar_bg1.gif"></td>
+                      <td height="2" background="../resources/image/bar_bg1.gif"></td>
                     </tr>
                     <tr align="center" bgcolor="F8F8F8"> 
                       <td height="26" align="center" bgcolor="#E4EBF1" style="padding-right:10"><table width="600" border="0" cellspacing="0" cellpadding="0">
                           <tr> 
-                            <td align="center"><strong>±≥¿∞¡§∫∏ | ¿⁄∞›¡ı. ∫∏¿Ø±‚º˙¡§∫∏ | «¡∑Œ¡ß∆Æ 
-                              ¡§∫∏ |∞Ê∑¬¡§∫∏ | ±Ÿπ´¡§∫∏</strong></td>
+                            <td align="center"><strong>ÍµêÏú°Ï†ïÎ≥¥ | ÏûêÍ≤©Ï¶ù. Î≥¥Ïú†Í∏∞Ïà†Ï†ïÎ≥¥ | ÌîÑÎ°úÏ†ùÌä∏ 
+                              Ï†ïÎ≥¥ |Í≤ΩÎ†•Ï†ïÎ≥¥ | Í∑ºÎ¨¥Ï†ïÎ≥¥</strong></td>
                           </tr>
                         </table></td>
                     </tr>
                     <tr align="center" bgcolor="F8F8F8"> 
-                      <td height="3" align="right" background="image/bar_bg1.gif"></td>
+                      <td height="3" align="right" background="../resources/image/bar_bg1.gif"></td>
                     </tr>
                   </table></td>
               </tr>
@@ -46,9 +46,9 @@
               <tr> 
                 <td bgcolor="#CCCCCC"><table width="600" border="0" cellspacing="1" cellpadding="0">
                     <tr> 
-                      <td width="97" height="31" align="center" bgcolor="#E4EBF1"><strong>ªÁø¯∏Ì</strong></td>
+                      <td width="97" height="31" align="center" bgcolor="#E4EBF1"><strong>ÏÇ¨ÏõêÎ™Ö</strong></td>
                       <td width="128" align="center" bgcolor="#E4EBF1"><input name="textfield3325" type="text" size="15"></td>
-                      <td width="131" align="center" bgcolor="#E4EBF1"><strong>¡÷πŒµÓ∑œπ¯»£</strong></td>
+                      <td width="131" align="center" bgcolor="#E4EBF1"><strong>Ï£ºÎØºÎì±Î°ùÎ≤àÌò∏</strong></td>
                       <td width="239" align="center" bgcolor="#E4EBF1"><input name="textfield33252" type="text" size="15">
                         -
                         <input name="textfield33253" type="text" size="15"></td>
@@ -64,7 +64,7 @@
           <td height="4" align="left" valign="top"><table width="526" border="0" cellspacing="1" cellpadding="1">
             <tr>
               <td width="16" align="right">&nbsp;</td>
-              <td><strong>°· «–∑¬</strong></td>
+              <td><strong>‚ñ† ÌïôÎ†•</strong></td>
               </tr>
           </table></td>
         </tr>
@@ -79,21 +79,21 @@
                           <td width="109"><strong>
                             <input name="textfield33254" type="text" size="15">
                           </strong></td>
-                          <td width="70"><strong>∞ÌµÓ«–±≥</strong></td>
+                          <td width="70"><strong>Í≥†Îì±ÌïôÍµê</strong></td>
                           <td width="108"><strong>
                             <input name="textfield332542" type="text" size="15">
                           </strong></td>
-                          <td width="56"><strong>∞˙ ¡πæ˜</strong></td>
+                          <td width="56"><strong>Í≥º Ï°∏ÏóÖ</strong></td>
                           <td width="67"><strong>
                             <input name="textfield3325422" type="text" size="8">
                           </strong></td>
-                          <td width="32"><strong>≥‚
+                          <td width="32"><strong>ÎÖÑ
                             
                           </strong></td>
                           <td width="66"><strong>
                             <input name="textfield33254222" type="text" size="8">
                           </strong></td>
-                          <td width="18"><strong>ø˘</strong></td>
+                          <td width="18"><strong>Ïõî</strong></td>
                         </tr>
                       </table>                      </td>
                     </tr>
@@ -103,19 +103,19 @@
                         <td width="109"><strong>
                           <input name="textfield332543" type="text" size="15">
                         </strong></td>
-                        <td width="70"><strong>¿¸ªÍø¯</strong></td>
+                        <td width="70"><strong>Ï†ÑÏÇ∞Ïõê</strong></td>
                         <td width="108"><strong>
                           <input name="textfield3325423" type="text" size="15">
                         </strong></td>
-                        <td width="56"><strong>∞˙ ¡πæ˜</strong></td>
+                        <td width="56"><strong>Í≥º Ï°∏ÏóÖ</strong></td>
                         <td width="67"><strong>
                           <input name="textfield33254223" type="text" size="8">
                         </strong></td>
-                        <td width="32"><strong>≥‚ </strong></td>
+                        <td width="32"><strong>ÎÖÑ </strong></td>
                         <td width="66"><strong>
                           <input name="textfield332542222" type="text" size="8">
                         </strong></td>
-                        <td width="18"><strong>ø˘</strong></td>
+                        <td width="18"><strong>Ïõî</strong></td>
                       </tr>
                     </table></td>
                   </tr>
@@ -125,19 +125,19 @@
                         <td width="109"><strong>
                           <input name="textfield332544" type="text" size="15">
                         </strong></td>
-                        <td width="70"><strong>¿¸πÆ¥Î«–</strong></td>
+                        <td width="70"><strong>Ï†ÑÎ¨∏ÎåÄÌïô</strong></td>
                         <td width="108"><strong>
                           <input name="textfield3325424" type="text" size="15">
                         </strong></td>
-                        <td width="56"><strong>∞˙ ¡πæ˜</strong></td>
+                        <td width="56"><strong>Í≥º Ï°∏ÏóÖ</strong></td>
                         <td width="67"><strong>
                           <input name="textfield33254224" type="text" size="8">
                         </strong></td>
-                        <td width="32"><strong>≥‚ </strong></td>
+                        <td width="32"><strong>ÎÖÑ </strong></td>
                         <td width="66"><strong>
                           <input name="textfield332542223" type="text" size="8">
                         </strong></td>
-                        <td width="18"><strong>ø˘</strong></td>
+                        <td width="18"><strong>Ïõî</strong></td>
                       </tr>
                     </table>                      </td>
                   </tr>
@@ -147,19 +147,19 @@
                         <td width="109"><strong>
                           <input name="textfield3325442" type="text" size="15">
                         </strong></td>
-                        <td width="70"><strong>¥Î«–±≥(ø¯)</strong></td>
+                        <td width="70"><strong>ÎåÄÌïôÍµê(Ïõê)</strong></td>
                         <td width="108"><strong>
                           <input name="textfield33254242" type="text" size="15">
                         </strong></td>
-                        <td width="56"><strong>∞˙ ¡πæ˜</strong></td>
+                        <td width="56"><strong>Í≥º Ï°∏ÏóÖ</strong></td>
                         <td width="67"><strong>
                           <input name="textfield332542242" type="text" size="8">
                         </strong></td>
-                        <td width="32"><strong>≥‚ </strong></td>
+                        <td width="32"><strong>ÎÖÑ </strong></td>
                         <td width="66"><strong>
                           <input name="textfield3325422232" type="text" size="8">
                         </strong></td>
-                        <td width="18"><strong>ø˘</strong></td>
+                        <td width="18"><strong>Ïõî</strong></td>
                       </tr>
                     </table>                      </td>
                   </tr>
@@ -174,7 +174,7 @@
           <td height="7" align="left" valign="top"><table width="526" border="0" cellspacing="1" cellpadding="1">
             <tr>
               <td width="16" align="right">&nbsp;</td>
-              <td><strong>°· ±≥¿∞ </strong></td>
+              <td><strong>‚ñ† ÍµêÏú° </strong></td>
             </tr>
           </table></td>
         </tr>
@@ -185,7 +185,7 @@
                     <tr> 
                       <td height="40" align="center" bgcolor="#E4EBF1"><table width="548" border="0" cellpadding="1" cellspacing="1">
                         <tr align="left">
-                          <td width="68" align="center"><strong>±≥¿∞∏Ì</strong></td>
+                          <td width="68" align="center"><strong>ÍµêÏú°Î™Ö</strong></td>
                           <td width="473"><strong>
                             <input name="textfield3325425" type="text" size="70">
                                                     </strong><strong>                          </strong><strong>                          </strong></td>
@@ -193,15 +193,15 @@
                         <tr align="left">
                           <td colspan="2"><table width="534" height="17" border="0" cellpadding="0" cellspacing="0">
                             <tr>
-                              <td width="72"><strong>±≥¿∞Ω√¿€¿œ</strong></td>
+                              <td width="72"><strong>ÍµêÏú°ÏãúÏûëÏùº</strong></td>
                               <td width="102"><strong>
                                 <input name="textfield332542422" type="text" size="12">
                               </strong></td>
-                              <td width="70"><strong>±≥¿∞¡æ∑·¿œ</strong></td>
+                              <td width="70"><strong>ÍµêÏú°Ï¢ÖÎ£åÏùº</strong></td>
                               <td width="91"><strong>
                                 <input name="textfield3325424222" type="text" size="12">
                               </strong></td>
-                              <td width="60"><strong>±≥¿∞±‚∞£</strong></td>
+                              <td width="60"><strong>ÍµêÏú°Í∏∞Í∞Ñ</strong></td>
                               <td width="139"><strong>
                                 <input name="textfield33254242222" type="text" size="20">
                               </strong></td>
@@ -213,7 +213,7 @@
                     <tr> 
                       <td height="26" align="center" valign="middle" bgcolor="#E4EBF1"><table width="548" border="0" cellpadding="1" cellspacing="1">
                         <tr align="left">
-                          <td width="68" align="center"><strong>±≥¿∞∏Ì</strong></td>
+                          <td width="68" align="center"><strong>ÍµêÏú°Î™Ö</strong></td>
                           <td width="473"><strong>
                             <input name="textfield33254252" type="text" size="70">
                           </strong><strong> </strong><strong> </strong></td>
@@ -221,15 +221,15 @@
                         <tr align="left">
                           <td colspan="2"><table width="534" height="17" border="0" cellpadding="0" cellspacing="0">
                               <tr>
-                                <td width="72"><strong>±≥¿∞Ω√¿€¿œ</strong></td>
+                                <td width="72"><strong>ÍµêÏú°ÏãúÏûëÏùº</strong></td>
                                 <td width="102"><strong>
                                   <input name="textfield3325424223" type="text" size="12">
                                 </strong></td>
-                                <td width="70"><strong>±≥¿∞¡æ∑·¿œ</strong></td>
+                                <td width="70"><strong>ÍµêÏú°Ï¢ÖÎ£åÏùº</strong></td>
                                 <td width="91"><strong>
                                   <input name="textfield33254242223" type="text" size="12">
                                 </strong></td>
-                                <td width="60"><strong>±≥¿∞±‚∞£</strong></td>
+                                <td width="60"><strong>ÍµêÏú°Í∏∞Í∞Ñ</strong></td>
                                 <td width="139"><strong>
                                   <input name="textfield332542422222" type="text" size="20">
                                 </strong></td>
@@ -241,7 +241,7 @@
                     <tr> 
                       <td height="26" align="center" bgcolor="#E4EBF1"><table width="548" border="0" cellpadding="1" cellspacing="1">
                         <tr align="left">
-                          <td width="68" align="center"><strong>±≥¿∞∏Ì</strong></td>
+                          <td width="68" align="center"><strong>ÍµêÏú°Î™Ö</strong></td>
                           <td width="473"><strong>
                             <input name="textfield33254253" type="text" size="70">
                           </strong><strong> </strong><strong> </strong></td>
@@ -249,15 +249,15 @@
                         <tr align="left">
                           <td colspan="2"><table width="534" height="17" border="0" cellpadding="0" cellspacing="0">
                               <tr>
-                                <td width="72"><strong>±≥¿∞Ω√¿€¿œ</strong></td>
+                                <td width="72"><strong>ÍµêÏú°ÏãúÏûëÏùº</strong></td>
                                 <td width="102"><strong>
                                   <input name="textfield3325424224" type="text" size="12">
                                 </strong></td>
-                                <td width="70"><strong>±≥¿∞¡æ∑·¿œ</strong></td>
+                                <td width="70"><strong>ÍµêÏú°Ï¢ÖÎ£åÏùº</strong></td>
                                 <td width="91"><strong>
                                   <input name="textfield33254242224" type="text" size="12">
                                 </strong></td>
-                                <td width="60"><strong>±≥¿∞±‚∞£</strong></td>
+                                <td width="60"><strong>ÍµêÏú°Í∏∞Í∞Ñ</strong></td>
                                 <td width="139"><strong>
                                   <input name="textfield332542422223" type="text" size="20">
                                 </strong></td>
@@ -276,8 +276,8 @@
         <tr>
           <td height="3" align="center"><table width="107" border="0" cellpadding="1" cellspacing="1">
             <tr>
-              <td width="49"><img src="image/bt_remove.gif" width="49" height="18"></td>
-              <td width="51"><img src="image/bt_cancel.gif" width="49" height="18"></td>
+              <td width="49"><img src="../resources/image/bt_remove.gif" width="49" height="18"></td>
+              <td width="51"><img src="../resources/image/bt_cancel.gif" width="49" height="18"></td>
             </tr>
           </table></td>
         </tr>
