@@ -31,12 +31,12 @@
                               <table width="340" border="0" cellspacing="0" cellpadding="0">
                                 <tr> 
                                   <td width="75" height="20" align="right"><img src="../resources/image/id.gif" width="54" height="10">&nbsp;</td>
-                                  <td width="174"><input name="textfield" type="text" class="INPUT" size="25"></td>
-                                  <td width="91" rowspan="2" align="right"><a href="#"><img src="../resources/image/login_button.gif" width="90" height="40" border="0"></a></td>
+                                  <td width="174"><input name="loginId" type="text" class="INPUT" size="25"></td>
+                                  <td width="91" rowspan="2" align="right"><a id="loginProc"><img src="../resources/image/login_button.gif" width="90" height="40" border="0"></a></td>
                                 </tr>
                                 <tr> 
                                   <td align="right"><img src="../resources/image/pass.gif" width="54" height="10">&nbsp;</td>
-                                  <td><input name="textfield2" type="password" class="INPUT" size="25"></td>
+                                  <td><input name="loginPw" type="password" class="INPUT" size="25"></td>
                                 </tr>
                               </table></td>
                           </tr>
@@ -55,5 +55,37 @@
       </table></td>
   </tr>
 </table>
+<div id="msg"/>
+
+<script>
+$(document).ready(function() {
+	$("#loginProc").click(function() {
+		var param = "id="+ document.getElementById("loginId").value + "&pw="+ document.getElementById("loginPw").value;
+		$.ajax({
+			type : "post",
+			data : param,
+			url : "index.do",
+			success : function(result) {
+					switch(result){
+						case "1" : location.href="index.do"; break; // 로그인 성공
+						case "2" : document.getElementById("msg")="아이디 없습니다"; break; // 해당 아이디 없음
+						case "3" : document.getElementById("msg")="비밀번호가 틀렸습니다"; break; // 비밀번호 틀림
+					}
+				},
+			error : function(
+						request,
+						status,
+						error) {
+					alert("code="
+							+ request.status
+							+ " message="
+							+ request.responseText
+							+ " error="
+							+ error);
+			});
+		});
+	});
+});
+</script>
 </body>
 </html>
